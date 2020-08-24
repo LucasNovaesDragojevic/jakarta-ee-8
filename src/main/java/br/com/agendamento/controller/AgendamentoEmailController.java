@@ -12,7 +12,7 @@ import javax.ws.rs.core.Response;
 import br.com.agendamento.model.AgendamentoEmail;
 import br.com.agendamento.service.AgendamentoEmailService;
 
-@Path("/emails")
+@Path("emails")
 public class AgendamentoEmailController
 {
 	@Inject
